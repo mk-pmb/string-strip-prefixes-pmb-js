@@ -1,5 +1,5 @@
 { "name": "string-strip-prefixes-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Given a list of potential prefixes and a string, strip all of the former from the latter.",
   "keywords": [
     "prefix",
@@ -21,7 +21,7 @@
   "private": false, "license": "ISC",
 
   "main": "index.js",
-  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "scripts": { "test": "elp && nodejs test/all.js" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
@@ -31,9 +31,8 @@
     "eslint-plugin-json-light-pmb": "^1.0.7",
     "eslint-plugin-n": "^17.16.2",
     "eslint-pretty-pmb": "^1.0.7",
-    "nodemjs": "^0.1.16",
     "p-fatal": "^0.1.5",
-    "p-tape": "^4.0.2",
+    "tape": "^5.5.2",
     "usnam-pmb": "^0.2.5"
   },
 

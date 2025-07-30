@@ -1,8 +1,8 @@
-// -*- coding: utf-8, tab-width: 2 -*-
+'use strict';
 
-import test from 'p-tape';
+const test = require('tape');
 
-import ssp from '../index.js';
+const ssp = require('../index.js');
 
 
 test('E-mail subject prefixes', (t) => {
@@ -52,4 +52,8 @@ test('E-mail subject prefixes', (t) => {
 
 
 
-console.info('+OK basics test passed.');
+
+
+
+
+// *scroll*
