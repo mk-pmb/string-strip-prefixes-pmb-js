@@ -1,5 +1,5 @@
 { "name": "string-strip-prefixes-pmb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Given a list of potential prefixes and a string, strip all of the former from the latter.",
   "keywords": [
     "prefix",
@@ -37,5 +37,5 @@
   },
 
 
-  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
 }
